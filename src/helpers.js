@@ -1,13 +1,19 @@
-/*  Intro
+/*  
+Reference:https://cs50.harvard.edu/x/2021/psets/1/credit/#credit
+  
+  Intro
 	1. American Express
 		a. 15 digits, starts with 34, 37
 	2. Master card 
 	 	a. 16 digits, starts with 22, 51, 52, 53, 54, and 55   
 	3. VISA card
 		a. 13, 16 digits, starts with digit 4 
+
 */
 
-/* Validation (based on Luhn’s Algorithm)
+/* 
+Validation (based on Luhn’s Algorithm)
+
 	Checksum 
 	1. Multiply every other digit by 2, starting  with second-to-last-digit.
 	2. Add those products' digits together.
